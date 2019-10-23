@@ -1,0 +1,23 @@
+h3.hndle { font-size: 14px; line-height: 1.4; margin: 0; padding: 8px 12px; color: #696969; } .clear {	clear: both; height: 20px; } .clear5 { clear: both; height: 5px; } .clear10 { clear: both; height: 10px; }
+#upload_response, #download_response, #at_response, #term_action_response, #parse_response { padding: 5px 3px; border: solid 3px White; margin: 0 0 20px 0; display: none; }
+.responseError {	background-color: #ffd9d9 !important; }
+.responseSuccess {	background-color: #c4f6c5 !important; }               
+.responseWaiting {	background-color: #add8e6 !important; }               
+#download_file { display: none; }
+.at_abc {
+	margin: 0 0 20px 0;
+}
+.at_abc_letter { text-transform: uppercase; margin: 0, 10px; background-color: inherit; padding: 5px; display: inline-block; }
+ul.at_ul { -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; }                           
+ul.at_ul li { list-style: none; }
+
+@media handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px) and (orientation:portrait) {
+ul.at_ul { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; }
+}
+.at-up {
+	text-transform: uppercase;
+}
+
+.at_abc_letter.current {
+	font-weight: bold;
+}
